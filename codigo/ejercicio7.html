@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio7</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    <br>
+    <form action="" method="POST">
+        <label for="nombre">Nombre</label>
+        <input name="nombre" type="text" placeholder="Kike" required> 
+        <label for="apellido">Apellido</label>
+        <input name="apellido" type="text" placeholder="Sainz" required> 
+        <br>
+        <label for="hombre">Hombre</label>
+        <input type="radio" value="hombre" name="sexo" >
+        <label for="mujer">Mujer</label>
+        <input type="radio" value="mujer" name="sexo" >
+        <label for="otro">Otro</label>
+        <input type="radio" value="otro" name="sexo" >
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="tu email" name="email">
+        <label for="password">Contraseña</label>
+        <input type="password" maxlength="10"  minlength="5" >
+        <br>
+        <label for="condiciones">Aceptar condiciones de uso</label>
+        <input type="checkbox" required name="condiciones">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
